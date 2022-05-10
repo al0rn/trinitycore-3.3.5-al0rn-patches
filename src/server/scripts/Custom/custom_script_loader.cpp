@@ -17,12 +17,15 @@
 
 // This is where scripts' loading functions should be declared:
 
+
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddSC_npc_1v1arena();
+void AddLfgSoloScripts();
 
 void AddCustomScripts()
 {
+    AddLfgSoloScripts();
     AddSC_npc_1v1arena();
     // 1
     // 2

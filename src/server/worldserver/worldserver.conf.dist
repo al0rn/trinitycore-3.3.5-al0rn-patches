@@ -38,6 +38,7 @@
 #    PACKET SPOOF PROTECTION SETTINGS
 #    MISC ANTI-CHEAT SETTINGS
 #    METRIC SETTINGS
+#    SOLO LFG
 #
 ###################################################################################################
 
@@ -4178,6 +4179,26 @@ Arena.1v1.MinLevel = 80
 #        Usage: 0 = Disabled, 1 = Enabled
 
 Arena.1v1.BlockForbiddenTalents = 1
+
+#
+###################################################################################################
+
+###################################################################################################
+# SOLO LFG
+#
+#    SoloLFG.Enable
+#        Description: Enable the module.
+#        Default:     1  - (Enabled)
+#                     0  - (Disabled)
+
+SoloLFG.Enable = 1
+
+#    SoloLFG.Announce
+#        Description: Announce the module.
+#        Default:     1  - (Enabled)
+#                     0  - (Disabled)
+
+SoloLFG.Announce = 1
 
 #
 ###################################################################################################
