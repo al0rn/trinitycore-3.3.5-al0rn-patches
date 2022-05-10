@@ -24,6 +24,7 @@ void AddSC_npc_1v1arena();
 void AddLfgSoloScripts();
 void AddSC_skip_StarterArea();
 void AddSolocraftScripts();
+void AddSC_AutoBalance();
 
 void AddCustomScripts()
 {
@@ -31,6 +32,7 @@ void AddCustomScripts()
     AddSC_npc_1v1arena();
     AddSC_skip_StarterArea();
     AddSolocraftScripts();
+    AddSC_AutoBalance();
     // 1
     // 2
     // 3

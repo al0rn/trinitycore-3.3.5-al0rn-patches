@@ -20,6 +20,7 @@
 
 #include "Common.h"
 #include "Duration.h"
+#include "DataMap.h"
 #include "EventProcessor.h"
 #include "ModelIgnoreFlags.h"
 #include "MovementInfo.h"
@@ -199,6 +200,8 @@ class TC_GAME_API Object
         DynamicObject const* ToDynObject() const { if (IsDynObject()) return reinterpret_cast<DynamicObject const*>(this); else return nullptr; }
 
         virtual std::string GetDebugInfo() const;
+
+        DataMap CustomData;
 
     protected:
         Object();
