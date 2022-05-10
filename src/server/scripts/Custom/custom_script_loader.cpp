@@ -22,11 +22,13 @@
 // void Add${NameOfDirectory}Scripts()
 void AddSC_npc_1v1arena();
 void AddLfgSoloScripts();
+void AddSC_skip_StarterArea();
 
 void AddCustomScripts()
 {
     AddLfgSoloScripts();
     AddSC_npc_1v1arena();
+    AddSC_skip_StarterArea();
     // 1
     // 2
     // 3
