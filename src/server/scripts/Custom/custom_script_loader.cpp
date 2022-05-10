@@ -23,12 +23,14 @@
 void AddSC_npc_1v1arena();
 void AddLfgSoloScripts();
 void AddSC_skip_StarterArea();
+void AddSolocraftScripts();
 
 void AddCustomScripts()
 {
     AddLfgSoloScripts();
     AddSC_npc_1v1arena();
     AddSC_skip_StarterArea();
+    AddSolocraftScripts();
     // 1
     // 2
     // 3
